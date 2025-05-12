@@ -1,0 +1,19 @@
+// Binary Search Tree
+digraph {
+	node [shape=circle]
+	splines=line
+	ordering=out
+	48 [label=48]
+	48 -> 33 [label=L color=blue]
+	33 [label=33]
+	33 -> 32 [label=L color=blue]
+	32 [label=32]
+	33 -> 47 [label=R color=red]
+	47 [label=47]
+	47 -> 42 [label=L color=blue]
+	42 [label=42]
+	42 -> 46 [label=R color=red]
+	46 [label=46]
+	48 -> 49 [label=R color=red]
+	49 [label=49]
+}
